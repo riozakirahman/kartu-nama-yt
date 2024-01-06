@@ -1,0 +1,76 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.card__wrapper {
+  /* background-color: red; */
+  padding-top: 10px;
+  height: 100vh;
+}
+.card__img {
+  width: 100%;
+  height: 350px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 0 #a5f3fc;
+}
+.card__img:hover {
+  transform: scale(1.1);
+}
+
+.card__skill-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.card__skill-wrapper_small {
+  justify-content: center;
+  gap: 10px;
+}
+.card__skill {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 0 #a5f3fc;
+}
+.card__skill:hover {
+  transform: scale(1.1);
+}
+
+.card__skill_small {
+  justify-content: center;
+  width: 50px;
+  text-decoration: none;
+  color: inherit;
+  height: 50px;
+}
+.card__skill-main {
+  height: 120px;
+}
+
+.card__skill-title {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+}
+.card__skill-icon {
+  position: absolute;
+  top: 10px;
+}
+
+.card__owner,
+.card__about {
+  text-align: center;
+}
